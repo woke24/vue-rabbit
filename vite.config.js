@@ -13,6 +13,7 @@ export default defineConfig({
   plugins: [
     vue(),
     //...
+    // 配置插件
     AutoImport({
       resolvers: [ElementPlusResolver()],
     }),
