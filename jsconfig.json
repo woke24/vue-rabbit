@@ -1,0 +1,11 @@
+{
+    // 配置@符号路径为src之下，只做联想提示，实际在vite.config.js中配置
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    }
+}
