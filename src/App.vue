@@ -2,10 +2,8 @@
 </script>
 
 <template>
-  <header>
-    <el-button type="primary">Primary</el-button>
-    
-  </header>
+    <!-- <el-button type="primary">Primary</el-button> -->
+    <RouterView />   
 </template>
 
 <style scoped>
