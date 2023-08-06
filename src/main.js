@@ -9,7 +9,7 @@ import router from './router'
 import '@/styles/common.scss'
 
 // 测试接口函数
-import { getCategoryAPI } from './apis/testApi'
+import { getCategoryAPI } from './apis/layout'
 getCategoryAPI().then(res =>{
     console.log(res)
 })
